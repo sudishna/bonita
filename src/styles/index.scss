@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 10px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container p{
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+ul{
+    margin-top: 10px;
+    list-style-type: circle;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.container span{
+    color: red;
+    font-size: 10px;
+}
+#canvas {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border:1px solid rgba(208, 189, 189, 0.7);
+}
